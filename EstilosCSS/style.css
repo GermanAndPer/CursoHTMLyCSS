@@ -1,0 +1,31 @@
+
+/* Esta es la manera mas directa de darle estilos a una etiqueta.
+llamandola por el nombre de la etiqueta misma en este caso es la misma P.
+Pero esta pudiera ser la menos recomendada por ser la mas general.
+
+p {
+    color: blueviolet;
+    font-size: 20px;
+} */
+
+/* CLASS - Por CLASES 
+Las clase es una manera en la que agrupamos la informacion.
+Para darle forma a las clases, se empieza por un punto. "."
+Seguido del nombre de la clase
+*/
+.PruebaClase  {
+    color: blue;
+    font-size: 30px;
+}
+
+/* ID - por su identificador ID 
+Los ID son otra manera en la que agrupamos informacion por su categoria.
+Para darle formato por ID, se empieza por un punto. "#"
+Seguido del nombre del ID
+
+*/
+#PruebaID {
+    color: blueviolet;
+    font-size: 40px;
+}
+
