@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Formulariso</title>
+</head>
+<body>
+    <!-- <div>
+        <input type="text">
+    </div> -->
+    <!-- Esto que se acaba de hacer es una mala practica. Se recompienda hacer de la siguiete manera. -->
+    <form action="">
+    <!-- En action se podria la URL a donde iria la informacion que seconteste en en Formulario.
+    -->
+        <label for="nombre">
+            <span>¿Como te llamas?</span>
+            <input type="text" name="Tu_nombre" id="nombre" autocomplete="name" required>
+        </label>
+        <!-- label sirve para agrupar las diferentes tipos de INPUT de acuerdo a las
+        que tienen el mismo ID. esto lo relacionamos con FOR dentro de LABEL y ID dentro de 
+        INPUT. 
+        SPAN es el texxto que aparece junto al Imput. Pero sirve somo una extencion 
+        del mismo.
+        El TYPE dentro del INPUT tiene muchas opciones. De pendiendo de lo que se quiera pedir.
+        Como FECHA, TIEMPO o LISTA DESPLEGABLE.
+        https://www.w3schools.com/html/html_form_input_types.asp
+        Pagina para ver los
+        -->
+        <!-- LAs 2 ultimas etiquetas agregadas son AUTOCOMPLETE y REQUIRED 
+        AUTOCOMPLETE: rquiere atributos. Para saber con que informacion se va a llenar cada
+        re cuadro. Las mas comunes son NAME, EMAIL, COUNTRY.
+        En esta pagina aparecen varias: 
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete 
+        REQUIRED es para espoecificar que una informacion es obligatoria.
+        -->
+        <br>
+        <label for="cursos">
+            <span>¿Que cursos te gustaria tomar?</span>
+            <input list="cursos" name="cursos">
+                <datalist id="cursos">
+                    <option value="Excel"></option>        
+                    <option value="Python"></option>        
+                    <option value="Power Bi"></option>        
+                    <option value="Macros"></option>        
+                    <option value="R"></option>        
+                </datalist>
+        </label>
+        <input type="submit" value="Ejemplo de nombre en SUBMIT">
+        <!-- SUBMMIT es cuando se manda la informacion a una base de Datos.
+        No se manda directamente mas bien se ve en el URL. Pero convinandolo con JAVASCRIPT
+        se puede linquear a la base de datos.
+         -->
+        <button type="submit">Ejemplo de Nombre de BUTTON</button>
+        <!-- La etiqueta de BUTTON es mas versatil. Y nos permite modificarla 
+        de una manera mas rapida. 
+        Lo principal con SUBMIT es que este en automatico envia los datos.
+        Pero eso podemos hacerlo nosotros con AGREGANDOLE el TIPO "TYPE="SUBMIT"" -->
+
+    </form>
+</body>
+</html>
+
