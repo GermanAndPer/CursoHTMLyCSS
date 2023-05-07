@@ -1,0 +1,54 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+.contenedor {
+    background-color: rgb(214, 230, 0);
+}
+
+#img__ER {
+    width: 70%;
+    height: 60px;
+    align-content: center;
+}
+
+h1 {
+    width: 50%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px rgb(19, 221, 221) solid;
+    position: relative;
+    top: 35px;
+    text-align: center;
+    /* padding: 20px 40px; */
+
+}
+
+.parrafo {
+    width: 80%;
+    height: 70vh;
+    background-color: purple;
+    border-radius: 50px;
+    padding: 55px 30px;
+    margin: 0 auto;
+    border: 1px rgb(19, 221, 221) solid;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.video {
+    width: 90%;
+    height: 40%;
+    margin: 10% auto;
+    margin-left: 5%;
+    position: relative;
+
+}
